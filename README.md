@@ -11,4 +11,4 @@ O módulo api-simples contém 2 apis
 "/v1/numeros/{num}"  que é intermitente e retorna sucesso para números pares e erro para numeros impares
 
 "/v1/retry-numeros/{num}" que é uma implementação de retry usando a lib spring-retry chamando a api ""/v1/numeros/{num}" e tratando o erro
-e fazendo retentando as chamadas em caso de falha até o numero máximo estabelicido. 
+e fazendo tentando novamente as chamadas em caso de falha até o numero máximo estabelecido. 
